@@ -38,7 +38,7 @@ f1-race-sales-analysis-project/
 - **專案的最終預測模型**：我們成功建立了一個迴歸模型，可解釋 17.4% 的銷售額變動，並提供量化的洞察以指導策略制定。
 
 ## 數據來源
-f1_weekly_sales_by_city.csv：提供各城市每週的銷售額數據及是否為比賽週的標示。
+> **[點此查看所有預測模型成果檔案](sql/project_analysis.sql)** f1_weekly_sales_by_city.csv：提供各城市每週的銷售額數據及是否為比賽週的標示。
 f1_event_products_template.csv：來自線上旅遊平台（KKday、KLOOK）的產品數量和評論數。
 f1_dts_by_country_filled.csv：包含國家層級的 F1 與 Drive to Survive 趨勢分數、GDP 等數據。
 google_trends_long_format.csv：包含 F1 和特定車手（如 Lewis Hamilton）在 2020-2024 年間的 Google 搜尋趨勢分數。
