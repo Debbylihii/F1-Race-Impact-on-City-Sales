@@ -37,10 +37,10 @@ f1-race-sales-analysis-project/
 - **專案的最終預測模型**：我們成功建立了一個迴歸模型，可解釋 17.4% 的銷售額變動，並提供量化的洞察以指導策略制定。
 
 ## 數據來源
-> **[點此查看各城市每週的銷售額數據及是否為比賽週的標示檔案](data/row/f1_weekly_sales_by_city.csv)**<br>
-> **[點此查看線上旅遊平台的產品數量和評論數](data/row/f1_event_products_template.csv)**<br>
-> **[點此查看包含國家層級的 F1 與 Drive to Survive 趨勢分數、GDP 等數據](data/row/f1_dts_by_country_filled.csv)**<br>
-> **[點此查看 F1 或相關資訊（如知名賽車手）在 2020-2024 年間的 Google 搜尋趨勢分數](data/row/google_trends_long_format.csv)**<br>
+> **[點此查看各城市每週的銷售額數據及是否為比賽週的標示檔案](https://github.com/Debbylihii/F1-Race-Impact-on-City-Sales/blob/fce0230643b1716389ef13b585ca0b1d5318ad78/data/raw/f1_weekly_sales_by_city.csv)**<br>
+> **[點此查看線上旅遊平台的產品數量和評論數](https://github.com/Debbylihii/F1-Race-Impact-on-City-Sales/blob/fce0230643b1716389ef13b585ca0b1d5318ad78/data/raw/f1_event_products_template.csv)**<br>
+> **[點此查看包含國家層級的 F1 與 Drive to Survive 趨勢分數、GDP 等數據](https://github.com/Debbylihii/F1-Race-Impact-on-City-Sales/blob/fce0230643b1716389ef13b585ca0b1d5318ad78/data/raw/f1_dts_by_country_filled.csv)**<br>
+> **[點此查看 F1 或相關資訊（如知名賽車手）在 2020-2024 年間的 Google 搜尋趨勢分數](https://github.com/Debbylihii/F1-Race-Impact-on-City-Sales/blob/fce0230643b1716389ef13b585ca0b1d5318ad78/data/raw/google_trends_long_format.csv)**<br>
 
 ## 資料處理與分析方法
   - **資料清理與整合**：將 f1_event_products_template 中的 race_location 欄位清理為標準化的城市名稱，以便與其他數據集合併。透過日期和城市欄位，將所有相關數據整合至一個主數據集中。
@@ -49,10 +49,10 @@ f1-race-sales-analysis-project/
   - **經過模型驗證**：發現國家層級的趨勢分數在控制其他變數後並不具備統計顯著性，因此將其排除，以建立更精簡、更具解釋力的最終模型。
 
 ## 預測模型成果
-  - **最終模型方程式為**：> **[點此查看預測模型成果](model_results/regression_summary.csv)**<br>
+  **最終模型方程式為**：> **[點此查看預測模型成果](model_results/regression_summary.csv)**<br>
 
 ## 商業建議
-  - **基於模型的洞察，提出以下優化行銷與營運的策略**：
+  **基於模型的洞察，提出以下優化行銷與營運的策略**：
     - **即時行銷策略**：在 F1 賽事舉辦前夕和賽事週期間，應將行銷資源集中在舉辦城市，並透過即時監控 Google 趨勢來優化廣告投放。
     - **重視使用者體驗與口碑**：透過提供優質產品與服務，積極鼓勵消費者留下評論。產品評論數不僅是顧客滿意度的指標，也是驅動銷售的有效工具。
     - **數據驅動的決策**：利用本模型作為基礎，可以對未來賽事舉辦地的潛在銷售額進行預測，為預算編列和產品上架提供數據支持。
