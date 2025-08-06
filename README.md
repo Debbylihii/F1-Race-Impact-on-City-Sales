@@ -37,10 +37,10 @@ f1-race-sales-analysis-project/
 - **專案的最終預測模型**：我們成功建立了一個迴歸模型，可解釋 17.4% 的銷售額變動，並提供量化的洞察以指導策略制定。
 
 ## 數據來源
-> **[點此查看各城市每週的銷售額數據及是否為比賽週的標示檔案](data/row/f1_weekly_sales_by_city.csv)** 
-> **[點此查看線上旅遊平台的產品數量和評論數](data/row/f1_event_products_template.csv)**
-> **[點此查看包含國家層級的 F1 與 Drive to Survive 趨勢分數、GDP 等數據](data/row/f1_dts_by_country_filled.csv)**
-> **[點此查看 F1 或相關資訊（如知名賽車手）在 2020-2024 年間的 Google 搜尋趨勢分數](data/row/google_trends_long_format.csv)**
+> **[點此查看各城市每週的銷售額數據及是否為比賽週的標示檔案](data/row/f1_weekly_sales_by_city.csv)**<br>
+> **[點此查看線上旅遊平台的產品數量和評論數](data/row/f1_event_products_template.csv)**<br>
+> **[點此查看包含國家層級的 F1 與 Drive to Survive 趨勢分數、GDP 等數據](data/row/f1_dts_by_country_filled.csv)**<br>
+> **[點此查看 F1 或相關資訊（如知名賽車手）在 2020-2024 年間的 Google 搜尋趨勢分數](data/row/google_trends_long_format.csv)**<br>
 
 ## 資料處理與分析方法
   - **資料清理與整合**：將 f1_event_products_template 中的 race_location 欄位清理為標準化的城市名稱，以便與其他數據集合併。透過日期和城市欄位，將所有相關數據整合至一個主數據集中。
@@ -49,7 +49,7 @@ f1-race-sales-analysis-project/
   - **經過模型驗證**：發現國家層級的趨勢分數在控制其他變數後並不具備統計顯著性，因此將其排除，以建立更精簡、更具解釋力的最終模型。
 
 ## 預測模型成果
-  - **最終模型方程式為**：> **[點此查看預測模型成果](model_results/regression_summary.csv)**
+  - **最終模型方程式為**：> **[點此查看預測模型成果](model_results/regression_summary.csv)**<br>
 
 ## 商業建議
   - **基於模型的洞察，提出以下優化行銷與營運的策略**：
