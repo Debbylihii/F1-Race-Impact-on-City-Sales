@@ -4,19 +4,19 @@
 ## 專案架構
 ```
 f1-race-sales-analysis-project/
-├── README.md                 <-- 專案報告，用 Markdown 格式撰寫
+├── README.md                 
 │
-├── data/                     <-- 存放原始數據的資料夾
+├── data/                     
 │   └── raw/
 │       ├── f1_weekly_sales_by_city拷貝.csv
 │       ├── google_trends_long_format.csv
 │       ├── f1_event_products_template拷貝.csv
 │       └── f1_dts_by_country_filled.csv
 │
-├── notebooks/                <-- 存放 Jupyter Notebook 檔案
-│   └── f1_sales_analysis.ipynb  <-- 包含所有資料清理、分析與模型建立的程式碼
+├── notebooks/                
+│   └── f1_sales_analysis.ipynb  
 │
-└── output/                   <-- 存放分析結果與視覺化圖表的資料夾
+└── output/                   
     ├── charts/
     │   ├── sales_comparison_by_week.png      <-- 賽事週與非賽事週銷售額比較圖
     │   └── trend_vs_sales_scatter.png        <-- 趨勢分數與銷售額的散佈圖
@@ -25,10 +25,15 @@ f1-race-sales-analysis-project/
 ```
 ## 專案介紹
 本專案是「F1 賽事對城市旅遊銷售額影響分析」的延伸。
-本專案將證明 F1 賽事能顯著提升舉辦城市的銷售額，更進一步整合了多方數據（包括 Google 趨勢和消費者互動指標），建立預測模型。
+將進一步證明 F1 賽事能顯著提升舉辦城市的銷售額，更進一步整合了多方數據（包括 Google 趨勢和消費者互動指標），建立預測模型。
 
 ## 專案目標
-提供一套可行的商業策略，協助企業優化行銷決策，從而最大化賽事帶來的商業效益。
+提供一套可行的商業策略，協助團隊優化行銷決策，從而最大化賽事帶來的商業效益。
+
+## 使用工具
+程式語言：Python
+函式庫：pandas (數據處理), scikit-learn (機器學習), matplotlib / seaborn (資料視覺化)。
+報告形式：專案程式碼與分析流程皆收錄於 Jupyter Notebook (.ipynb) 檔案中。
 
 ## 主要發現
 - **舉辦賽事可帶來顯著的銷售增長**：賽事週的銷售額平均比非賽事週高出約 US$423，顯示 F1 賽事對當地經濟有直接的刺激作用。
@@ -62,8 +67,3 @@ f1-race-sales-analysis-project/
    - **擴充數據**：納入更多外部數據，如社群媒體聲量、機票預訂量或飯店入住率，以提升模型的準確性。<br>
    - **時間序列分析**：利用更複雜的模型來預測銷售趨勢，並考量賽事舉辦前的熱度爬升週期。<br>
    - **分群分析**：將不同特性的城市（如新興市場與成熟市場）進行分群，並針對性地建立模型，以提供更精準的行銷建議。
-
-## 程式碼與工具
-程式語言：Python
-函式庫：pandas (數據處理), scikit-learn (機器學習), matplotlib / seaborn (資料視覺化)。
-報告形式：專案程式碼與分析流程皆收錄於 Jupyter Notebook (.ipynb) 檔案中。
