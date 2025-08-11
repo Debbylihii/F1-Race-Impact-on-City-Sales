@@ -32,7 +32,7 @@ f1-race-sales-analysis-project/
 
 ## 使用工具
 程式語言：Python
-函式庫：pandas (數據處理), scikit-learn (機器學習), matplotlib / seaborn (資料視覺化)。
+函式庫：pandas (數據處理), scikit-learn (機器學習), matplotlib / seaborn (資料視覺化)。<br>
 報告形式：專案程式碼與分析流程皆收錄於 Jupyter Notebook (.ipynb) 檔案中。
 
 ## 主要發現
